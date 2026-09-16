@@ -8,7 +8,7 @@ const OUTPUT_DIR = './audios';
 // audioFile = nome do arquivo esperado pelo hook usePronunciation (sem extensão)
 // text = texto em tailandês a ser sintetizado
 const WORDS = [
-  { audioFile: 'phîi', text: 'พี่' },
+  { audioFile: 'pronuncia', text: 'thai' },
 ];
 
 async function generateAudio({ audioFile, text }) {
